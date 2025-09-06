@@ -30,7 +30,7 @@ input[type=button] {
 .grid {
     display: grid;
 }
-.container {
+.section {
     min-height: 100vh;
 }
 .calculadora {
@@ -52,11 +52,11 @@ input[type=button] {
 }
 #clear,#cero {
     grid-column: 3 / 1;
+    width: 100%;
 }
 #clear {
-    background-color: rgb(255, 77, 46);
+    background-color: rgb(245, 68, 36);
     color: #fff;
-    border: 1px solid rgb(250, 129, 108);
     transition: all .3s ease-in-out;
 }
 #clear:hover {
@@ -67,6 +67,7 @@ input[type=button] {
     color: white;
     border: 1px solid #a56af8;
     transition: all .3s ease-in-out;
+    font-size: 20px;
 }
 #ope:hover {
     background-color: #a66afad7;
