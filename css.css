@@ -52,7 +52,6 @@ input[type=button] {
 }
 #clear,#cero {
     grid-column: 3 / 1;
-    width: 100%;
 }
 #clear {
     background-color: rgb(245, 68, 36);
@@ -65,7 +64,6 @@ input[type=button] {
 #ope {
     background-color: #7024dc;
     color: white;
-    border: 1px solid #a56af8;
     transition: all .3s ease-in-out;
     font-size: 20px;
 }
@@ -87,7 +85,6 @@ input[type=button] {
     background-color: rgb(18, 156, 37);
     color: white;
     font-size: 20px;
-    border: 1px solid rgb(31, 233, 31);
     transition: all .3s ease-in-out;
 }
 #eq:hover {
