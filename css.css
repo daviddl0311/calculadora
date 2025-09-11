@@ -9,7 +9,7 @@ body {
 }
 input[type=button] {
     font-family: system-ui;
-    padding: 1rem 2rem;
+    padding-block: 1rem;
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
@@ -43,6 +43,7 @@ input[type=button] {
     grid-template-columns: repeat(4, 1fr)
 }
 #result {
+    width: clamp(235px, 50vw, 400px);
     padding: 1.7rem;
     text-align: right;
     font-size: 30px;
